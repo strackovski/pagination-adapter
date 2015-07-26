@@ -1,0 +1,5 @@
+...
+
+ignis.pagination_adapter:
+    class:  AppBundle\Service\PaginationAdapter
+    arguments: ["@knp_paginator"]
